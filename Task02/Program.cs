@@ -10,9 +10,9 @@ Console.WriteLine("Enter numbertwo:");
 string strnumberB = Console.ReadLine();
 int numberB = Convert.ToInt32(strnumberB);
 
-double result = numberA%numberB;
+int result = numberA%numberB;
 
-if (numberA/numberB == 0)
+if (numberA%numberB == 0)
 {
      Console.WriteLine("Multiple");
 }
